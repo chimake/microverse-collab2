@@ -1,0 +1,31 @@
+:root{
+    --color-white: #ffffff;
+    --color-darkblue-back: #13133e;
+    --color-green: #109b45;
+    --color-darkblue-top: rgb(30 30 72 / 80%);
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: var(--color-white);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center;
+    padding: 0 20px;
+    background: var(--color-darkblue-back);
+    background-image: linear-gradient(45deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(survey-form-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
